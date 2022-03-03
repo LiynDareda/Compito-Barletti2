@@ -1,0 +1,30 @@
+   67  git merge newFeature-Navbar 
+   68  nano index.html 
+   69  git add -A
+   70  git commit -m "Commit 6 - merge-conflict"
+   71  git push origin master
+   72  git history 40 > comandi.txt
+   73  git hystory 40 > comandi.txt
+   74  history 40 > comandi.txt
+   75  git add -A
+   76  git add -A
+   77  git commit -m "Commit 7 - history"
+   78  git push origin master
+   79  git clone https://github.com/sena-meucci/progettoStampa.git
+   80  cd progettoStampa/
+   81  cd ..
+   82  cd Desktop/
+   83  git clone https://github.com/sena-meucci/progettoStampa.git
+   84  cd progettoStampa/
+   85  git add -A
+   86  git commit -m "Commit 1 - aggiunto nome"
+   87  git config user.name LiynDareda
+   88  git config user.email linkbarletti@gmail.com
+   89  git branch BugFix
+   90  git checkout BugFix
+   91* git add -A[B
+   92  git commit -m "Commit 2 - bug fixato"
+   93  git checkout master 
+   94* 
+   95  git branch -d BugFix 
+   96  history 30 > comandi.txt
